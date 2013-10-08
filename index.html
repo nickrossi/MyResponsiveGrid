@@ -11,12 +11,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        The goal is to create a grid system that bases the length of modules' axes off of the browser window dimensions so that the grid is proportionate to the screen.
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>	
+    <body>
+    
+    	<div>
+    		<div class="1of3 vAligned-center">
+	    		<p>
+		    		This is a paragraph of text, hopefully one day they will ellipsify me.
+	    		</p>
+    		</div>
+    		<div class="1of3">
+	    		stuff
+    		</div>
+    		<div class="1of3">
+	    		more stuff
+    		</div>
+    	</div> <!-- WRAPPER -->
+    		
 		<!-- SCRIPTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
